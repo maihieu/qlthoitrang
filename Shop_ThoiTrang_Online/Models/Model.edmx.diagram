@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8962108dc7da48fe93f8bbc7a53b9f72" Name="Diagram1">
+        <EntityTypeShape EntityType="QLQUANAOModel.ChitietDonhang" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQUANAOModel.Chuyenkhoan" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQUANAOModel.Dondathang" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQUANAOModel.HoaDon" Width="1.5" PointX="8.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQUANAOModel.Khachhang" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQUANAOModel.Nhanvien" Width="1.5" PointX="6" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQUANAOModel.Phanhoi" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQUANAOModel.Sanpham" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <AssociationConnector Association="QLQUANAOModel.FK_ChitietDonhang_Dondathang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQUANAOModel.FK_Chuyenkhoan_Khachhang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQUANAOModel.FK_Dondathang_Khachhang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQUANAOModel.FK_Dondathang_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQUANAOModel.FK_HoaDon_Dondathang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQUANAOModel.FK_HoaDon_Khachhang1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQUANAOModel.FK_HoaDon_Nhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQUANAOModel.FK_Phanhoi_Khachhang" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

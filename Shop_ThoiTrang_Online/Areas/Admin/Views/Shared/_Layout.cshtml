@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link href="~/Areas/Admin/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Areas/Admin/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Areas/Admin/vendor/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet" />
+    <!-- DataTables Responsive CSS -->
+    <link href="~/Areas/Admin/vendor/datatables-responsive/dataTables.responsive.css" rel="stylesheet" />
+
+    @Styles.Render("~/Content/admin-css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body> 
+
+    <div class="body-content">
+        @Html.Partial("page/navbar")
+        @RenderBody()
+        <hr />
+        <footer>
+           
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/admin/script")
+    @RenderSection("scripts", required: false)
+
+    <!-- DataTables JavaScript -->
+   <script src="~/Areas/Admin/vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/Areas/Admin/vendor/datatables/js/dataTables.bootstrap.min.js"></script>
+    <script src="~/Areas/Admin/vendor/datatables-responsive/dataTables.responsive.js"></script>
+
+</body>
+</html>

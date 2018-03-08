@@ -1,0 +1,246 @@
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\ApplicationInsights.config
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\csc.exe
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\System.Collections.Immutable.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\vbc.exe
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\VBCSCompiler.exe
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\VBCSCompiler.exe.config
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Shop_ThoiTrang_Online.dll.config
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Shop_ThoiTrang_Online.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Shop_ThoiTrang_Online.pdb
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Antlr3.Runtime.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.SqlServer.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.Web.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.WindowsServer.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.ApplicationInsights.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Google.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Web.Infrastructure.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Newtonsoft.Json.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Owin.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Helpers.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Mvc.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Optimization.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Razor.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Deployment.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Razor.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\WebGrease.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.Web.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.WindowsServer.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.ApplicationInsights.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Helpers.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Mvc.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Optimization.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Razor.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Deployment.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Razor.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Antlr3.Runtime.pdb
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Newtonsoft.Json.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.SqlServer.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Google.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\obj\Debug\Shop_ThoiTrang_Online.dll
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\obj\Debug\Shop_ThoiTrang_Online.pdb
+c:\users\nguyenhung\documents\visual studio 2015\Projects\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\obj\Debug\Shop_ThoiTrang_Online.csprojResolveAssemblyReference.cache
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\ApplicationInsights.config
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\csc.exe
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\System.Collections.Immutable.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\System.Reflection.Metadata.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\vbc.exe
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\VBCSCompiler.exe
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\VBCSCompiler.exe.config
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Shop_ThoiTrang_Online.dll.config
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Shop_ThoiTrang_Online.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Shop_ThoiTrang_Online.pdb
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Antlr3.Runtime.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.SqlServer.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.Agent.Intercept.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.DependencyCollector.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.Web.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.WindowsServer.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.ApplicationInsights.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Core.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Cookies.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Facebook.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Google.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.OAuth.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Twitter.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Web.Infrastructure.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Newtonsoft.Json.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Owin.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Helpers.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Mvc.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Optimization.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Razor.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Deployment.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Razor.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\WebGrease.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.DependencyCollector.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.Web.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.WindowsServer.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.ApplicationInsights.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Helpers.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Mvc.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Optimization.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Razor.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Deployment.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Razor.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Antlr3.Runtime.pdb
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Newtonsoft.Json.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.SqlServer.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Core.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Facebook.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Cookies.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.OAuth.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Google.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Twitter.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\obj\Debug\Shop_ThoiTrang_Online.dll
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\obj\Debug\Shop_ThoiTrang_Online.pdb
+D:\EntityFrameWork\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\obj\Debug\Shop_ThoiTrang_Online.csprojResolveAssemblyReference.cache
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\ApplicationInsights.config
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\csc.exe
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\System.Collections.Immutable.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\System.Reflection.Metadata.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\vbc.exe
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\VBCSCompiler.exe
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\roslyn\VBCSCompiler.exe.config
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Shop_ThoiTrang_Online.dll.config
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Shop_ThoiTrang_Online.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Shop_ThoiTrang_Online.pdb
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Antlr3.Runtime.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.SqlServer.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.DependencyCollector.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.Web.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.WindowsServer.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.ApplicationInsights.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Google.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Web.Infrastructure.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Newtonsoft.Json.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Owin.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Helpers.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Mvc.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Optimization.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Razor.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Deployment.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Razor.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\WebGrease.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.DependencyCollector.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.Web.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AI.WindowsServer.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.ApplicationInsights.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Helpers.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Mvc.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Optimization.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.Razor.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Deployment.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\System.Web.WebPages.Razor.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Antlr3.Runtime.pdb
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Newtonsoft.Json.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\EntityFramework.SqlServer.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Google.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\obj\Debug\Shop_ThoiTrang_Online.dll
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\obj\Debug\Shop_ThoiTrang_Online.pdb
+D:\Shop_ThoiTrang_Online\Shop_ThoiTrang_Online\obj\Debug\Shop_ThoiTrang_Online.csprojResolveAssemblyReference.cache

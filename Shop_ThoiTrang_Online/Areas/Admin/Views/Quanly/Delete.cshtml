@@ -1,0 +1,23 @@
+﻿@model Shop_ThoiTrang_Online.Models.Sanpham
+
+<center><h3>Bạn có chắc chắn muốn xóa</h3></center>
+<div>
+   
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tensp)
+        </dt>
+        </dl>
+  
+
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+    <hr />
+        <div class="form-actions no-color">
+            <center> <input type="submit" value="Delete" class="btn btn-default" /> </center>|
+            <center>  @Html.ActionLink("Back to List", "danh_sach_san_pham")</center>
+        </div>
+        
+    }
+</div>

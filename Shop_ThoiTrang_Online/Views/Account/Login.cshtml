@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<section id="form">
+    <!--form-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-1">
+                <div class="login-form">
+                    <!--login form-->
+                    <h2>Đăng nhập tài khoản của bạn</h2>
+                    <form action="#">
+                        <input type="text" placeholder="Tài khoản" />
+                        <input type="password" placeholder="Mật khẩu" />
+                        <span>
+                            <input type="checkbox" class="checkbox">
+                            Nhớ tài khoản
+                        </span>
+                        
+                        <span style="float:right;"><a href="/Account/forgotpassword/">Quên mật khẩu?</a></span>
+                        <button type="submit" class="btn btn-default">Đăng nhập</button>
+                    </form>
+                </div><!--/login form-->
+            </div>
+            <div class="col-sm-1">
+                <h2 class="or">OR</h2>
+            </div>
+            <div class="col-sm-4">
+                <div class="signup-form">
+                    <!--sign up form-->
+                    <h2>Đăng ký tài khoản mới!</h2>
+                    <form action="#">
+                        <input type="text" placeholder="Tài khoản" />
+                        <input type="password" placeholder="Mật khẩu" />
+                        <input type="password" placeholder="Nhập lại mật khẩu" />
+                        <input type="text" placeholder="Họ tên" />
+                        <input type="email" placeholder="Email" />
+                        <input type="number" placeholder="Số điện thoại" />
+                        <select>
+                            <option value="">Tỉnh/TP</option>
+                            <option value="Hà Nội">Hà Nội</option>
+                            <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                            <option value="Đà Nẵng">Đà Nẵng</option>
+                            <option value="Cà Mau">Cà Mau</option>
+                        </select>
+                        <input type="text" placeholder="Địa chỉ cụ thể" />
+                        <button type="submit" class="btn btn-default">Đăng ký</button>
+                    </form>
+                </div><!--/sign up form-->
+            </div>
+        </div>
+    </div>
+</section><!--/form-->

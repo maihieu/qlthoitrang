@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Shop_ThoiTrang_Online.Models.Sanpham>
+
+@{
+    ViewBag.Title = "content";
+}
+
+<section>
+    <div class="container">
+        <div class="row">
+            @Html.Partial("page/_leftsidebar")
+
+            <div class="col-sm-9 padding-right">
+                <div class="features_items">
+                    <!--features_items-->
+                    
+                    <h2 class="title text-center">Sản phẩm bán chạy</h2>
+                    
+                 
+                   @foreach (var item in ViewBag.sp_banchay)
+                   {
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="~/Media/images/all/@item.hinhanh" alt="" />
+                                        <h2 style="text-transform:uppercase;">@item.giakhuyenmai vnd</h2>
+                                        <p>@item.tensp</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm giỏ hàng</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <img src="~/Media/images/all/@item.hinhanh" alt="" />
+                                            <h2 style="text-transform:uppercase;">@item.giakhuyenmai vnd</h2>
+                                            <p><a href="/Product/details?masp=@item.masp">Xem chi tiết</a>
+                                                @*<a href="/Products/Product?Masp=@item.Masp" class="link-wrapper"></a>*@
+</p>
+                                            <a href="/Cart/them_gio_hang?masp=@item.masp" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="choose">
+                                    <ul class="nav nav-pills nav-justified">
+                                        <li style="color:#bab4b4; text-align:center; text-decoration:line-through;">@item.dongia vnd</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                   }
+              
+
+                </div>
+
+                <div class="recommended_items">
+                    <!--recommended_items-->
+                    <h2 class="title text-center">Sản phẩm mới </h2>
+                  
+                    <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                               @foreach (var i in ViewBag.spmoi)
+                               {
+                                <div class="col-sm-4">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <img src="~/Media/images/all/@i.hinhanh" alt="" />
+                                                <h2>$@i.dongia </h2>
+                                                <p><a href="/Product/details?masp=@i.masp">Xem chi tiết</a></p>
+                                                <a href="/Cart/them_gio_hang?masp=@i.masp" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm giỏ hàng</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                               }
+                             
+                            </div>
+                            <div class="item">
+                               @foreach (var i in ViewBag.spmoi)
+                               {
+                                <div class="col-sm-4">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <img src="~/Media/images/all/@i.hinhanh" alt="" />
+                                                <h2>$@i.dongia</h2>
+                                                <p><a href="/Product/details?masp=@i.masp">Xem chi tiết</a></p>
+                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm giỏ hàng</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                               }
+                            </div>
+                        </div>
+                        <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div><!--/recommended_items-->
+
+            </div>
+        </div>
+    </div>
+</section>
+

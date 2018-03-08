@@ -1,0 +1,1062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3376E5A4-A6B0-4B14-840A-31D2CE8062D9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shop_ThoiTrang_Online</RootNamespace>
+    <AssemblyName>Shop_ThoiTrang_Online</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\Admin_homeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\QuanlyController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\CheckoutController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Item.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ViewController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChitietDonhang.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChitietdonhangViewModel.cs" />
+    <Compile Include="Models\Chuyenkhoan.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Dondathang.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HoaDon.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Khachhang.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Nhanvien.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Phanhoi.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Sanpham.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SanphamModelView.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\content\bootstrap-social.css" />
+    <Content Include="Areas\Admin\content\bootstrap.css" />
+    <Content Include="Areas\Admin\content\bootstrap.min.css" />
+    <Content Include="Areas\Admin\content\dataTables.bootstrap.css" />
+    <Content Include="Areas\Admin\content\dataTables.bootstrap.min.css" />
+    <Content Include="Areas\Admin\content\dataTables.bootstrap4.css" />
+    <Content Include="Areas\Admin\content\dataTables.bootstrap4.min.css" />
+    <Content Include="Areas\Admin\content\dataTables.foundation.css" />
+    <Content Include="Areas\Admin\content\dataTables.foundation.min.css" />
+    <Content Include="Areas\Admin\content\dataTables.jqueryui.css" />
+    <Content Include="Areas\Admin\content\dataTables.jqueryui.min.css" />
+    <Content Include="Areas\Admin\content\dataTables.material.css" />
+    <Content Include="Areas\Admin\content\dataTables.material.min.css" />
+    <Content Include="Areas\Admin\content\dataTables.responsive.css" />
+    <Content Include="Areas\Admin\content\dataTables.semanticui.css" />
+    <Content Include="Areas\Admin\content\dataTables.semanticui.min.css" />
+    <Content Include="Areas\Admin\content\dataTables.uikit.css" />
+    <Content Include="Areas\Admin\content\dataTables.uikit.min.css" />
+    <Content Include="Areas\Admin\content\font-awesome.css" />
+    <Content Include="Areas\Admin\content\font-awesome.min.css" />
+    <Content Include="Areas\Admin\content\jquery.dataTables.css" />
+    <Content Include="Areas\Admin\content\jquery.dataTables.min.css" />
+    <Content Include="Areas\Admin\content\jquery.dataTables_themeroller.css" />
+    <Content Include="Areas\Admin\content\metisMenu.css" />
+    <Content Include="Areas\Admin\content\metisMenu.min.css" />
+    <Content Include="Areas\Admin\content\morris.css" />
+    <Content Include="Areas\Admin\content\sb-admin-2.css" />
+    <Content Include="Areas\Admin\content\sb-admin-2.min.css" />
+    <Content Include="Areas\Admin\script\bootstrap\bootstrap.js" />
+    <Content Include="Areas\Admin\script\bootstrap\bootstrap.min.js" />
+    <Content Include="Areas\Admin\script\datatables-plugins\dataTables.bootstrap.js" />
+    <Content Include="Areas\Admin\script\datatables-plugins\dataTables.bootstrap.min.js" />
+    <Content Include="Areas\Admin\script\datatables-responsive\dataTables.responsive.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.bootstrap.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.bootstrap.min.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.bootstrap4.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.bootstrap4.min.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.foundation.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.foundation.min.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.jqueryui.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.jqueryui.min.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.material.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.material.min.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.semanticui.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.semanticui.min.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.uikit.js" />
+    <Content Include="Areas\Admin\script\datatables\dataTables.uikit.min.js" />
+    <Content Include="Areas\Admin\script\datatables\jquery.dataTables.js" />
+    <Content Include="Areas\Admin\script\datatables\jquery.dataTables.min.js" />
+    <Content Include="Areas\Admin\script\datatables\jquery.js" />
+    <Content Include="Areas\Admin\script\data\flot-data.js" />
+    <Content Include="Areas\Admin\script\data\morris-data.js" />
+    <Content Include="Areas\Admin\script\flot-tooltip\jquery.flot.tooltip.js" />
+    <Content Include="Areas\Admin\script\flot-tooltip\jquery.flot.tooltip.min.js" />
+    <Content Include="Areas\Admin\script\flot-tooltip\jquery.flot.tooltip.source.js" />
+    <Content Include="Areas\Admin\script\flot\excanvas.js" />
+    <Content Include="Areas\Admin\script\flot\excanvas.min.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.colorhelpers.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.canvas.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.categories.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.crosshair.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.errorbars.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.fillbetween.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.image.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.navigate.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.pie.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.resize.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.selection.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.stack.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.symbol.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.threshold.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.flot.time.js" />
+    <Content Include="Areas\Admin\script\flot\jquery.js" />
+    <Content Include="Areas\Admin\script\jquery\jquery.js" />
+    <Content Include="Areas\Admin\script\jquery\jquery.min.js" />
+    <Content Include="Areas\Admin\script\metisMenu\metisMenu.js" />
+    <Content Include="Areas\Admin\script\metisMenu\metisMenu.min.js" />
+    <Content Include="Areas\Admin\script\morrisjs\morris.js" />
+    <Content Include="Areas\Admin\script\morrisjs\morris.min.js" />
+    <Content Include="Areas\Admin\script\raphael\raphael.js" />
+    <Content Include="Areas\Admin\script\raphael\raphael.min.js" />
+    <Content Include="Areas\Admin\script\sb-admin-2.js" />
+    <Content Include="Areas\Admin\script\sb-admin-2.min.js" />
+    <Content Include="Areas\Admin\vendor\bootstrap-social\bootstrap-social.css" />
+    <Content Include="Areas\Admin\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Areas\Admin\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Areas\Admin\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Areas\Admin\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Areas\Admin\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables-plugins\dataTables.bootstrap.css" />
+    <Content Include="Areas\Admin\vendor\datatables-plugins\dataTables.bootstrap.js" />
+    <Content Include="Areas\Admin\vendor\datatables-plugins\dataTables.bootstrap.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables-plugins\index.html" />
+    <Content Include="Areas\Admin\vendor\datatables-responsive\dataTables.responsive.css" />
+    <Content Include="Areas\Admin\vendor\datatables-responsive\dataTables.responsive.js" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.bootstrap.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.bootstrap.min.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.bootstrap4.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.foundation.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.foundation.min.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.jqueryui.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.jqueryui.min.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.material.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.material.min.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.semanticui.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.semanticui.min.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.uikit.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\dataTables.uikit.min.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\jquery.dataTables.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\jquery.dataTables.min.css" />
+    <Content Include="Areas\Admin\vendor\datatables\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Areas\Admin\vendor\datatables\images\favicon.ico" />
+    <Content Include="Areas\Admin\vendor\datatables\images\sort_asc.png" />
+    <Content Include="Areas\Admin\vendor\datatables\images\sort_asc_disabled.png" />
+    <Content Include="Areas\Admin\vendor\datatables\images\sort_both.png" />
+    <Content Include="Areas\Admin\vendor\datatables\images\sort_desc.png" />
+    <Content Include="Areas\Admin\vendor\datatables\images\sort_desc_disabled.png" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.bootstrap.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.bootstrap.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.bootstrap4.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.foundation.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.foundation.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.jqueryui.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.jqueryui.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.material.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.material.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.semanticui.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.semanticui.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.uikit.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\dataTables.uikit.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\jquery.dataTables.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\jquery.dataTables.min.js" />
+    <Content Include="Areas\Admin\vendor\datatables\js\jquery.js" />
+    <Content Include="Areas\Admin\vendor\flot-tooltip\jquery.flot.tooltip.js" />
+    <Content Include="Areas\Admin\vendor\flot-tooltip\jquery.flot.tooltip.min.js" />
+    <Content Include="Areas\Admin\vendor\flot-tooltip\jquery.flot.tooltip.source.js" />
+    <Content Include="Areas\Admin\vendor\flot\excanvas.js" />
+    <Content Include="Areas\Admin\vendor\flot\excanvas.min.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.colorhelpers.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.canvas.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.categories.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.crosshair.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.errorbars.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.fillbetween.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.image.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.navigate.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.pie.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.resize.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.selection.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.stack.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.symbol.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.threshold.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.flot.time.js" />
+    <Content Include="Areas\Admin\vendor\flot\jquery.js" />
+    <Content Include="Areas\Admin\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="Areas\Admin\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Areas\Admin\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Areas\Admin\vendor\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="Areas\Admin\vendor\jquery\jquery.js" />
+    <Content Include="Areas\Admin\vendor\jquery\jquery.min.js" />
+    <Content Include="Areas\Admin\vendor\metisMenu\metisMenu.css" />
+    <Content Include="Areas\Admin\vendor\metisMenu\metisMenu.js" />
+    <Content Include="Areas\Admin\vendor\metisMenu\metisMenu.min.css" />
+    <Content Include="Areas\Admin\vendor\metisMenu\metisMenu.min.js" />
+    <Content Include="Areas\Admin\vendor\morrisjs\morris.css" />
+    <Content Include="Areas\Admin\vendor\morrisjs\morris.js" />
+    <Content Include="Areas\Admin\vendor\morrisjs\morris.min.js" />
+    <Content Include="Areas\Admin\vendor\raphael\raphael.js" />
+    <Content Include="Areas\Admin\vendor\raphael\raphael.min.js" />
+    <Content Include="Content\animate.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\main.css" />
+    <Content Include="Content\prettyPhoto.css" />
+    <Content Include="Content\price-range.css" />
+    <Content Include="Content\responsive.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Media\images\all\0343844giay_the_thao_supperstar__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\0706189giay_nu_6__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\0811623giay_slipon_nu_a1__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\0814640giay_nu_7__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\1006895giay_nu_8__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\2728392giay_the_thao_nu__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\2825769giay_the_thao_nu__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\37370697_0_500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\ao-khoac-da-den-ak210_2-8449.jpg" />
+    <Content Include="Media\images\all\ao-khoac-da-den-ak231_2-9429.jpg" />
+    <Content Include="Media\images\all\ao-khoac-da-den-ak234_2_small-9443-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-da-den-ak235_2_small-9445-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-da-do-man-ak235_small-9446-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-da-nau-ak231_2_small-9442-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-da-nau-ak234_2_small-9444-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-da-nau-ak235_small-9447-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-du-xam-xanh-ak223_2_small-9365-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-jean-xanh-duong-ak216_2_small-9366-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-kaki-co-non-den-ak227_2_small-9362-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-kaki-co-non-tim-ak227_2_small-9363-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-kaki-co-non-xam-ak227_2_small-9364-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-kaki-xam-ak221_2_small-9357-t.jpg" />
+    <Content Include="Media\images\all\ao-khoac-phao-do-do-ak229_2-9424.jpg" />
+    <Content Include="Media\images\all\ao-khoac-phao-do-do-ak229_small-9423-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-caro-xam-asm929_2_small-9133-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-den-asm918_2_small-8932-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-den-asm925_2_small-8990-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-do-do-asm918_2_small-8934-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-han-quoc-caro-xam-asm934_2_small-9141-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-han-quoc-den-asm930_2_small-9134-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-han-quoc-den-asm931_2_small-9136-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-han-quoc-trang-asm925_2_small-9338-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-han-quoc-trang-asm937_2_small-9142-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-han-quoc-trang-kem-asm931_2_small-9137-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-han-quoc-xanh-bien-asm937_2_small-9337-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-han-quoc-xanh-da-troi-asm930_2_small-9135-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-hong-asm925_2_small-8988-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-ngan-tay-den-asm877_2_small-8978-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-ngan-tay-do-do-asm921_2_small-8981-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-ngan-tay-trang-asm793_2_small-8977-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-ngan-tay-trang-kem-asm921_2_small-8982-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-ngan-tay-xanh-den-asm921_2_small-8984-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-trang-asm874_2_small-8733-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-trang-asm927_2_small-8994-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-trang-kem-asm918_2_small-8933-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-xanh-bien-asm918_2_small-8931-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-xanh-da-troi-asm925_2_small-8992-t.jpg" />
+    <Content Include="Media\images\all\ao-so-mi-xanh-reu-asm925_2_small-8989-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-den-at741_2_small-9383-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-den-at745_2_small-9392-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-den-at746_2_small-9395-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-do-at746_2_small-9396-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-trang-kem-at741_2_small-9384-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-xanh-bien-at745_2_small-9393-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-xanh-bien-at746_2_small-9397-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-xanh-bien-at746_2_small-9398-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-xanh-den-at741_2_small-9391-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-co-co-xanh-den-at745_2_small-9394-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-den-at742_2_small-9387-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-soc-xanh-xam-at718_2_small-8946-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-trang-kem-at742_2_small-9388-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-xam-at742_2_small-9389-t.jpg" />
+    <Content Include="Media\images\all\ao-thun-xanh-den-at742_2_small-9390-t.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_16__1__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_17__1__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_18__1__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_26__1__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_30__1__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_34__1__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_36__1__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_37__1__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_48__2__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_57__2__500x750.jpg" />
+    <Content Include="Media\images\all\ao_thun_nu_58__2__500x750.jpg" />
+    <Content Include="Media\images\all\balo_11__2__500x750.jpg" />
+    <Content Include="Media\images\all\balo_12__2__500x750.jpg" />
+    <Content Include="Media\images\all\balo_13__2__500x750.jpg" />
+    <Content Include="Media\images\all\balo_14__2__500x750.jpg" />
+    <Content Include="Media\images\all\balo_16__2__500x750.jpg" />
+    <Content Include="Media\images\all\balo_1__2__500x750.jpg" />
+    <Content Include="Media\images\all\balo_2__2__500x750.jpg" />
+    <Content Include="Media\images\all\balo_5__2__402x603.jpg" />
+    <Content Include="Media\images\all\balo_8__2__500x750.jpg" />
+    <Content Include="Media\images\all\chan_vay_105__1__500x750.jpg" />
+    <Content Include="Media\images\all\chan_vay_24__1__500x750.jpg" />
+    <Content Include="Media\images\all\giay_11__4__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_1__4__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_2__4__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_8__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_10__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_13__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_1__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_1__4__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_2__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_3__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_3__3__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_4__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_5__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_6__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nam_7__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nma_17__3__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nu_11__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nu_12__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nu_4__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\giay_nu_5__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\all\jeans_nu_13__2__500x750.jpg" />
+    <Content Include="Media\images\all\jeans_nu_18__2__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_108__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_10__1__500x750 .jpg" />
+    <Content Include="Media\images\all\jean_nu_10__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_11__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_47__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_48__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_49__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_4__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_50__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_51__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_52__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_53__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_54__1__500x750.jpg" />
+    <Content Include="Media\images\all\jean_nu_6__1__thumb_400x600.jpg" />
+    <Content Include="Media\images\all\jena_nu_40__1__500x750.jpg" />
+    <Content Include="Media\images\all\jena_nu_4__1__500x750.jpg" />
+    <Content Include="Media\images\all\khoac_jean_nu_44__1__500x750.jpg" />
+    <Content Include="Media\images\all\quan-jean-xam-chuot-dam-qj1503_2_small-8952-t.jpg" />
+    <Content Include="Media\images\all\quan-jean-xanh-qj1466_2-8616.jpg" />
+    <Content Include="Media\images\all\quan-jeans-ong-dung-den-qj1521_2_small-8995-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-rach-bac-qj1533_2_small-9004-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-rach-den-qj1522_2_small-9373-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-rach-xam-chuot-qj1548_2_small-9376-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-rach-xanh-den-qj1529_2_small-9002-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-rach-xanh-den-qj1545_2_small-9374-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-rach-xanh-den-qj1546_2_small-9375-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-rach-xanh-duong-qj1536_2_small-9005-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-skinny-bac-qj1524_2_small-9034-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-skinny-bac-qj1544_2_small-9368-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-skinny-den-qj1526_2_small-9036-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-skinny-den-qj1527_2_small-9176-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-skinny-xam-chuot-qj1539_2_small-9371-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-skinny-xanh-den-qj1525_2_small-9035-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-skinny-xanh-den-qj1537_2_small-9367-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-skinny-xanh-den-qj1538_2_small-9372-t.jpg" />
+    <Content Include="Media\images\all\quan-jeans-skinny-xanh-qj1542_2_small-9369-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-den-qk164_2_small-8832-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-den-qk165_2_small-9161-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-den-qk167_2_small-9346-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-do-do-qk162_2-8650.jpg" />
+    <Content Include="Media\images\all\quan-kaki-mau-bo-qk164_2_small-8831-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-mau-kem-qk166_2_small-9345-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-nau-dam-qk162_2-8652.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-chuot-dam-qk164_2_small-8834-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-qk149_2_small-8829-t - Copy.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-qk149_2_small-8829-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-qk162_2-8653 - Copy.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-qk162_2-8653.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-qk162_2_small-8706-t - Copy.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-qk162_2_small-8706-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-qk167_2_small-9347-t - Copy.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-qk167_2_small-9347-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xam-trang-qk164_2_small-8833-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xanh-den-qk164_2_small-8835-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xanh-den-qk164_2_small-9160-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xanh-den-qk165_2_small-9162-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xanh-den-qk165_2_small-9343-t.jpg" />
+    <Content Include="Media\images\all\quan-kaki-xanh-reu-qk162_2-8654.jpg" />
+    <Content Include="Media\images\all\short_jean_25__1__500x750.jpg" />
+    <Content Include="Media\images\all\short_nu_13__1__500x750.jpg" />
+    <Content Include="Media\images\all\short_nu_1__3__500x750.jpg" />
+    <Content Include="Media\images\all\short_nu_22__2__500x750.jpg" />
+    <Content Include="Media\images\all\SHORT_NU_26__1__500x750.jpg" />
+    <Content Include="Media\images\all\SHORT_NU_27__1__500x750.jpg" />
+    <Content Include="Media\images\all\short_nu_37__1__500x750.jpg" />
+    <Content Include="Media\images\all\short_nu_5__3__500x750.jpg" />
+    <Content Include="Media\images\all\short_nu_6__3__500x750.jpg" />
+    <Content Include="Media\images\all\shot_nu_38__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_13__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_15__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_16__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_17__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_18__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_19__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_3__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_n3__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_n5__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_n6__1__500x750.jpg" />
+    <Content Include="Media\images\all\somi_nu_n9__1__500x750.jpg" />
+    <Content Include="Media\images\all\THUN_NU_22__1__500x750.jpg" />
+    <Content Include="Media\images\all\thun_nu_39__1__500x750.jpg" />
+    <Content Include="Media\images\all\thun_nu_9__1__500x750.jpg" />
+    <Content Include="Media\images\all\tui_xach_22__2__500x750.jpg" />
+    <Content Include="Media\images\all\tui_xach_23__2__500x750.jpg" />
+    <Content Include="Media\images\all\tui_xach_24__2__500x750.jpg" />
+    <Content Include="Media\images\all\tu_xach_18__2__500x750.jpg" />
+    <Content Include="Media\images\all\tu_xach_19__2__500x750.jpg" />
+    <Content Include="Media\images\all\tu_xach_20__2__500x750.jpg" />
+    <Content Include="Media\images\all\tu_xach_21__2__500x750.jpg" />
+    <Content Include="Media\images\cart\one.png" />
+    <Content Include="Media\images\cart\three.png" />
+    <Content Include="Media\images\cart\two.png" />
+    <Content Include="Media\images\giay\0343844giay_the_thao_supperstar__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\0706189giay_nu_6__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\0811623giay_slipon_nu_a1__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\0814640giay_nu_7__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\1006895giay_nu_8__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\2728392giay_the_thao_nu__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\2825769giay_the_thao_nu__1_400x600_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\37370697_0_500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_11__4__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_1__4__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_2__4__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_8__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_10__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_13__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_1__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_1__4__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_2__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_3__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_3__3__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_4__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_5__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_6__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nam_7__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nma_17__3__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nu_11__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nu_12__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nu_4__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\giay\giay_nu_5__1__500x750_thumb_205x306.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-da-den-ak210_2-8449.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-da-den-ak231_2-9429.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-da-den-ak234_2_small-9443-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-da-den-ak235_2_small-9445-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-da-do-man-ak235_small-9446-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-da-nau-ak231_2_small-9442-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-da-nau-ak234_2_small-9444-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-da-nau-ak235_small-9447-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-du-xam-xanh-ak223_2_small-9365-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-jean-xanh-duong-ak216_2_small-9366-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-kaki-co-non-den-ak227_2_small-9362-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-kaki-co-non-tim-ak227_2_small-9363-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-kaki-co-non-xam-ak227_2_small-9364-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-kaki-xam-ak221_2_small-9357-t.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-phao-do-do-ak229_2-9424.jpg" />
+    <Content Include="Media\images\nam\ao-khoac-phao-do-do-ak229_small-9423-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-caro-xam-asm929_2_small-9133-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-den-asm918_2_small-8932-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-den-asm925_2_small-8990-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-do-do-asm918_2_small-8934-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-han-quoc-caro-xam-asm934_2_small-9141-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-han-quoc-den-asm930_2_small-9134-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-han-quoc-den-asm931_2_small-9136-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-han-quoc-trang-asm925_2_small-9338-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-han-quoc-trang-asm937_2_small-9142-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-han-quoc-trang-kem-asm931_2_small-9137-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-han-quoc-xanh-bien-asm937_2_small-9337-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-han-quoc-xanh-da-troi-asm930_2_small-9135-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-hong-asm925_2_small-8988-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-ngan-tay-den-asm877_2_small-8978-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-ngan-tay-do-do-asm921_2_small-8981-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-ngan-tay-trang-asm793_2_small-8977-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-ngan-tay-trang-kem-asm921_2_small-8982-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-ngan-tay-xanh-den-asm921_2_small-8984-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-trang-asm874_2_small-8733-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-trang-asm927_2_small-8994-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-trang-kem-asm918_2_small-8933-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-xanh-bien-asm918_2_small-8931-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-xanh-da-troi-asm925_2_small-8992-t.jpg" />
+    <Content Include="Media\images\nam\ao-so-mi-xanh-reu-asm925_2_small-8989-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-den-at741_2_small-9383-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-den-at745_2_small-9392-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-den-at746_2_small-9395-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-do-at746_2_small-9396-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-trang-kem-at741_2_small-9384-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-xanh-bien-at745_2_small-9393-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-xanh-bien-at746_2_small-9397-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-xanh-bien-at746_2_small-9398-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-xanh-den-at741_2_small-9391-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-co-co-xanh-den-at745_2_small-9394-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-den-at742_2_small-9387-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-soc-xanh-xam-at718_2_small-8946-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-trang-kem-at742_2_small-9388-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-xam-at742_2_small-9389-t.jpg" />
+    <Content Include="Media\images\nam\ao-thun-xanh-den-at742_2_small-9390-t.jpg" />
+    <Content Include="Media\images\nam\quan-jean-xam-chuot-dam-qj1503_2_small-8952-t.jpg" />
+    <Content Include="Media\images\nam\quan-jean-xanh-qj1466_2-8616.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-ong-dung-den-qj1521_2_small-8995-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-rach-bac-qj1533_2_small-9004-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-rach-den-qj1522_2_small-9373-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-rach-xam-chuot-qj1548_2_small-9376-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-rach-xanh-den-qj1529_2_small-9002-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-rach-xanh-den-qj1545_2_small-9374-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-rach-xanh-den-qj1546_2_small-9375-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-rach-xanh-duong-qj1536_2_small-9005-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-skinny-bac-qj1524_2_small-9034-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-skinny-bac-qj1544_2_small-9368-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-skinny-den-qj1526_2_small-9036-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-skinny-den-qj1527_2_small-9176-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-skinny-xam-chuot-qj1539_2_small-9371-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-skinny-xanh-den-qj1525_2_small-9035-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-skinny-xanh-den-qj1537_2_small-9367-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-skinny-xanh-den-qj1538_2_small-9372-t.jpg" />
+    <Content Include="Media\images\nam\quan-jeans-skinny-xanh-qj1542_2_small-9369-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-den-qk164_2_small-8832-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-den-qk165_2_small-9161-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-den-qk167_2_small-9346-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-do-do-qk162_2-8650.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-mau-bo-qk164_2_small-8831-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-mau-kem-qk166_2_small-9345-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-nau-dam-qk162_2-8652.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xam-chuot-dam-qk164_2_small-8834-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xam-qk149_2_small-8829-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xam-qk162_2-8653.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xam-qk162_2_small-8706-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xam-qk167_2_small-9347-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xam-trang-qk164_2_small-8833-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xanh-den-qk164_2_small-8835-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xanh-den-qk164_2_small-9160-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xanh-den-qk165_2_small-9162-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xanh-den-qk165_2_small-9343-t.jpg" />
+    <Content Include="Media\images\nam\quan-kaki-xanh-reu-qk162_2-8654.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_16__1__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_17__1__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_18__1__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_26__1__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_30__1__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_34__1__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_36__1__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_37__1__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_48__2__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_57__2__500x750.jpg" />
+    <Content Include="Media\images\nu\ao_thun_nu_58__2__500x750.jpg" />
+    <Content Include="Media\images\nu\chan_vay_105__1__500x750.jpg" />
+    <Content Include="Media\images\nu\chan_vay_24__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jeans_nu_13__2__500x750.jpg" />
+    <Content Include="Media\images\nu\jeans_nu_18__2__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_108__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_10__1__500x750 .jpg" />
+    <Content Include="Media\images\nu\jean_nu_10__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_11__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_47__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_48__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_49__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_4__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_50__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_51__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_52__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_53__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_54__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jean_nu_6__1__thumb_400x600.jpg" />
+    <Content Include="Media\images\nu\jena_nu_40__1__500x750.jpg" />
+    <Content Include="Media\images\nu\jena_nu_4__1__500x750.jpg" />
+    <Content Include="Media\images\nu\khoac_jean_nu_44__1__500x750.jpg" />
+    <Content Include="Media\images\nu\short_jean_25__1__500x750.jpg" />
+    <Content Include="Media\images\nu\short_nu_13__1__500x750.jpg" />
+    <Content Include="Media\images\nu\short_nu_1__3__500x750.jpg" />
+    <Content Include="Media\images\nu\short_nu_22__2__500x750.jpg" />
+    <Content Include="Media\images\nu\SHORT_NU_26__1__500x750.jpg" />
+    <Content Include="Media\images\nu\SHORT_NU_27__1__500x750.jpg" />
+    <Content Include="Media\images\nu\short_nu_37__1__500x750.jpg" />
+    <Content Include="Media\images\nu\short_nu_5__3__500x750.jpg" />
+    <Content Include="Media\images\nu\short_nu_6__3__500x750.jpg" />
+    <Content Include="Media\images\nu\shot_nu_38__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_13__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_15__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_16__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_17__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_18__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_19__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_3__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_n3__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_n5__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_n6__1__500x750.jpg" />
+    <Content Include="Media\images\nu\somi_nu_n9__1__500x750.jpg" />
+    <Content Include="Media\images\nu\THUN_NU_22__1__500x750.jpg" />
+    <Content Include="Media\images\nu\thun_nu_39__1__500x750.jpg" />
+    <Content Include="Media\images\nu\thun_nu_9__1__500x750.jpg" />
+    <Content Include="Media\images\product-details\1.jpg" />
+    <Content Include="Media\images\product-details\new.jpg" />
+    <Content Include="Media\images\product-details\rating.png" />
+    <Content Include="Media\images\product-details\share.png" />
+    <Content Include="Media\images\product-details\similar1.jpg" />
+    <Content Include="Media\images\product-details\similar2.jpg" />
+    <Content Include="Media\images\product-details\similar3.jpg" />
+    <Content Include="Media\images\shop\advertisement.jpg" />
+    <Content Include="Media\images\shop\product10.jpg" />
+    <Content Include="Media\images\shop\product11.jpg" />
+    <Content Include="Media\images\shop\product12.jpg" />
+    <Content Include="Media\images\shop\product7.jpg" />
+    <Content Include="Media\images\shop\product8.jpg" />
+    <Content Include="Media\images\shop\product9.jpg" />
+    <Content Include="Media\images\tuixach\balo_11__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\balo_12__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\balo_13__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\balo_14__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\balo_16__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\balo_1__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\balo_2__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\balo_5__2__402x603.jpg" />
+    <Content Include="Media\images\tuixach\balo_8__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\tui_xach_22__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\tui_xach_23__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\tui_xach_24__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\tu_xach_18__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\tu_xach_19__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\tu_xach_20__2__500x750.jpg" />
+    <Content Include="Media\images\tuixach\tu_xach_21__2__500x750.jpg" />
+    <Content Include="Models\Model.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Model.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.cs</LastGenOutput>
+    </Content>
+    <Content Include="Scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin_home\admin_index.cshtml" />
+    <Content Include="Areas\Admin\content\font-awesome.css.map" />
+    <Content Include="Areas\Admin\Views\Shared\page\navbar.cshtml" />
+    <Content Include="Areas\Admin\Views\Quanly\danh_sach_san_pham.cshtml" />
+    <Content Include="Areas\Admin\vendor\bootstrap-social\bootstrap-social.less" />
+    <Content Include="Areas\Admin\vendor\bootstrap-social\bootstrap-social.scss" />
+    <Content Include="Areas\Admin\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Areas\Admin\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Areas\Admin\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Areas\Admin\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Areas\Admin\vendor\datatables-responsive\dataTables.responsive.scss" />
+    <Content Include="Areas\Admin\vendor\datatables\images\Sorting icons.psd" />
+    <Content Include="Areas\Admin\vendor\font-awesome\css\font-awesome.css.map" />
+    <Content Include="Areas\Admin\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Areas\Admin\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Areas\Admin\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Areas\Admin\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Areas\Admin\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\animated.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\core.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\extras.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\fixed-width.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\font-awesome.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\icons.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\larger.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\list.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\mixins.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\path.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\screen-reader.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\spinning.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\stacked.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\less\variables.less" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_animated.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_core.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_extras.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_icons.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_larger.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_list.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_mixins.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_path.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_spinning.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_stacked.scss" />
+    <Content Include="Areas\Admin\vendor\font-awesome\scss\_variables.scss" />
+    <Content Include="Areas\Admin\Views\Quanly\them_san_pham.cshtml" />
+    <Content Include="Areas\Admin\Views\Quanly\danh_sach_khach_hang.cshtml" />
+    <Content Include="Areas\Admin\Views\Quanly\don_hang.cshtml" />
+    <Content Include="Areas\Admin\Views\Quanly\chi_tiet_don_hang.cshtml" />
+    <EntityDeploy Include="Models\Model.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Model.edmx.diagram">
+      <DependentUpon>Model.edmx</DependentUpon>
+    </Content>
+    <Content Include="Areas\Admin\Views\Sanphams\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Sanphams\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Sanphams\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Sanphams\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Quanly\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Quanly\Delete.cshtml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\contact.js" />
+    <Content Include="Scripts\gmaps.js" />
+    <Content Include="Scripts\html5shiv.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.prettyPhoto.js" />
+    <Content Include="Scripts\jquery.scrollUp.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\price-range.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\page\_slide.cshtml" />
+    <Content Include="Views\Shared\page\content.cshtml" />
+    <Content Include="Views\Shared\page\_header.cshtml" />
+    <Content Include="Views\Shared\page\_footer.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\forgotpassword.cshtml" />
+    <Content Include="Views\Account\changepassword.cshtml" />
+    <Content Include="Views\Account\pageuser.cshtml" />
+    <Content Include="Views\Account\changeinforcharacter.cshtml" />
+    <Content Include="Views\Product\details.cshtml" />
+    <Content Include="Views\Cart\details_cart.cshtml" />
+    <Content Include="Views\Account\Order.cshtml" />
+    <Content Include="Views\Checkout\payment.cshtml" />
+    <Content Include="Views\Product\do_nam.cshtml" />
+    <Content Include="Views\Product\do_nu.cshtml" />
+    <Content Include="Views\Product\other_products.cshtml" />
+    <Content Include="Views\Shared\page\_leftsidebar.cshtml" />
+    <Content Include="Views\Product\balo_tuixach.cshtml" />
+    <Content Include="Views\Product\giay.cshtml" />
+    <Content Include="Views\Product\so_mi_nam.cshtml" />
+    <Content Include="Views\Product\ao_thun_nam.cshtml" />
+    <Content Include="Views\Product\quan_jean_nam.cshtml" />
+    <Content Include="Views\Product\quan_kaki_nam.cshtml" />
+    <Content Include="Views\Product\so_mi_nu.cshtml" />
+    <Content Include="Views\Product\ao_thun_nu.cshtml" />
+    <Content Include="Views\Product\quan_jean_nu.cshtml" />
+    <Content Include="Views\Product\quan_short_nu.cshtml" />
+    <Content Include="Views\Product\giay_nu.cshtml" />
+    <Content Include="Views\Product\giay_nam.cshtml" />
+    <Content Include="Views\Shared\page\View.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\script\bootstrap-social\" />
+    <Folder Include="Areas\Admin\script\font-awesome\" />
+    <Folder Include="Areas\Admin\Views\Default\" />
+    <Folder Include="Media\images\home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49889</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50000/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
